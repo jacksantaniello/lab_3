@@ -34,7 +34,7 @@ grep "303" "regex_practice.txt"
 echo "saving all geocities emails to email_results.txt"
 grep "geocities.com" "regex_practice.txt" >> email_results.txt
 
-uploads email_results.txt to git
+#uploads email_results.txt to git
 git add email_results.txt
 git commit email_results.txt
 git push origin master
