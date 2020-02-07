@@ -13,7 +13,9 @@ read pattern
 echo "Filename: $filename"
 echo "Pattern: $pattern"
 
-grep -c $pattern $filename
+grep $pattern $filename
+
+grep -c '[0-9]\{3\}\-[0-9]\{3\}\-[0-9]\{4\}'  "regex_practice.txt"
 
 let emails=$(grep -c "@" "regex_practice.txt")
 echo "number of emails: $emails"
