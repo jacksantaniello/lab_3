@@ -5,15 +5,10 @@
 #Problem 1 Code:
 #Make sure to document how you are solving each problem
 
-#echo "Input file name"
-#read filename
-#echo "Input RegEx Pattern"
-#read pattern
-
-#instead of asking for input I am using args
-
-filename=$1
-pattern=$2
+echo "Input file name"
+read filename
+echo "Input RegEx Pattern"
+read pattern
 
 echo "Filename: $filename"
 echo "Pattern: $pattern"
